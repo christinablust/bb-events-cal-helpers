@@ -1,3 +1,4 @@
+<?php
 /**
 * Plugin Name: BB Events Calendar Helpers
 * Plugin URI: 
@@ -46,3 +47,4 @@ function bdd_event_single_venue_info_shortcode() {
   return $output;
 }
 add_shortcode( 'bdd_event_single_venue_info', 'bdd_event_single_venue_info_shortcode');
+?>
